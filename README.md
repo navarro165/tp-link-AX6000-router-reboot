@@ -6,14 +6,14 @@ This project provides a simple solution for remotely rebooting a TP-Link AX6000 
 
 ## Prerequisites
 
-Before using this project, ensure that you have Docker installed on your machine.
+Before using this project, ensure that you have Docker and Docker Compose installed on your machine.
 
 ## Usage
 
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/tp-link-AX6000-router-reboot.git
+    git clone https://github.com/navarro165/tp-link-AX6000-router-reboot.git
     ```
 
 2. Navigate to the project directory:
