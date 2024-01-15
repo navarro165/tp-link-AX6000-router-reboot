@@ -5,7 +5,7 @@ docker pull selenium/standalone-firefox:4.16.1-20231219
 
 docker network create selenium-host
 
-(docker compose up --exit-code-from=python-app ; docker compose down --volumes ; docker network rm selenium-host) &
+(docker compose up --exit-code-from=python-app && docker compose down --volumes && docker network rm selenium-host) &
 
 
 
